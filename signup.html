@@ -40,7 +40,44 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <main>
+            <section id="signup">
+                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2><i class="fas fa-heartbeat"></i> Let's get you signed up!</h2>
+                    
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first_name" class="text-input" required>
+                    <br>
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="last_name" class="text-input" required>
+                    <br>
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" class="text-input" required>
+                    <br>
+                    
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" id="road" name="running_preference" value="road" checked>
+                            <label for="road">Road</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="trail" name="running_preference" value="trail">
+                            <label for="trail">Trail</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="both" name="running_preference" value="both">
+                            <label for="both">Both</label>
+                        </div>
+                    </div>
+                    
+                    <input type="submit" value="Let's Run!" class="join-button">
+                </form>
+            </section>
+        </main>
+    </main>
 
     <!-- Footer -->
     <footer>
